@@ -1,0 +1,23 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Flow-Direction</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>Fdr</Description>
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>128.5</HistMax>
+        <BucketCount>129</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|3669939|2372381|0|3919536|0|0|0|2150270|0|0|0|0|0|0|0|3003024|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1716770|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|3216008|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2251463</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

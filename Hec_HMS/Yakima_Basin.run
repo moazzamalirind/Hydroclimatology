@@ -1,0 +1,15 @@
+Run: Run 1
+     Default Description: Yes
+     Log File: Run_1.log
+     DSS File: Run_1.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:14:02
+     Basin: Yakima_Basin
+     Precip: Met 1
+     Control: Hydroclimatology_Project_control
+     Time-Series Output: Save All
+     Time Series Results Manager Start:
+     Time Series Results Manager End:
+End:
+

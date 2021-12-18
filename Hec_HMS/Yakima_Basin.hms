@@ -1,0 +1,27 @@
+Project: Yakima_Basin
+     Description: GeoHMS generated project for Yakima_Basin
+     Version: 4.9
+     Filepath Separator: \
+     DSS File Name: Yakima_Basin.dss
+     Time Zone ID: America/Los_Angeles
+End:
+
+Precipitation: Met 1
+     Filename: Met_1.met
+     Description: 
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 22:56
+End:
+
+Basin: Yakima_Basin
+     Filename: Yakima_Basin.basin
+     Description: Hydroclimitalogy project
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:29:28
+End:
+
+Control: Hydroclimatology_Project_control
+     FileName: Hydroclimatology_Project_control.control
+     Description: 
+End:
+

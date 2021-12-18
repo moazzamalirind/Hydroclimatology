@@ -1,0 +1,1775 @@
+Basin: Yakima_Basin
+     Description: Hydroclimitalogy project
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Version: 4.9
+     Filepath Separator: \
+     Unit System: Metric
+     Grid Cell File: C:\Users\Mooz\OneDrive - Washington State University (email.wsu.edu)\Hydroclimate\HydroClimate project\GIS_Project\Yakima_Basin\Yakima_Basin.mod
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+     Unregulated Output Required: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: W950
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:21:33
+     Canvas X: 626746.1261999998
+     Canvas Y: 5192540.4679000005
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 507.98
+     Downstream: J323
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 59.897
+
+     Transform: SCS
+     Lag: 8077.3
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Subbasin: W900
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:21:36
+     Canvas X: 632756.5126999998
+     Canvas Y: 5212039.5668
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 383.84
+     Downstream: J323
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 59.806
+
+     Transform: SCS
+     Lag: 6785.5
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J323
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 644670.4966000002
+     Canvas Y: 5205525.482999999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R260
+End:
+
+Reach: R260
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:25:52
+     Canvas X: 657601.4715
+     Canvas Y: 5187469.9121
+     From Canvas X: 644670.4966000002
+     From Canvas Y: 5205525.482999999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J302
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1050
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:21:46
+     Canvas X: 641568.7368999999
+     Canvas Y: 5182125.959799999
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 347.16
+     Downstream: J302
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 63.404
+
+     Transform: SCS
+     Lag: 4925.4
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Subbasin: W940
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:21:49
+     Canvas X: 649158.1346000005
+     Canvas Y: 5196870.215399999
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 341.14
+     Downstream: J302
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 67.850
+
+     Transform: SCS
+     Lag: 4447.1
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J302
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 657601.4715
+     Canvas Y: 5187469.9121
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R290
+End:
+
+Reach: R290
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:05
+     Canvas X: 669072.0695000002
+     Canvas Y: 5179344.905300001
+     From Canvas X: 657601.4715
+     From Canvas Y: 5187469.9121
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J317
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1130
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:14:51
+     Canvas X: 640965.3866999997
+     Canvas Y: 5167321.997099999
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 855.47
+     Downstream: J317
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 65.950
+
+     Transform: SCS
+     Lag: 9549.2
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J317
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 669072.0695000002
+     Canvas Y: 5179344.905300001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R350
+End:
+
+Junction: J377
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 685348.6354999999
+     Canvas Y: 5166785.662599999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R370
+End:
+
+Reach: R350
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:10
+     Canvas X: 685348.6354999999
+     Canvas Y: 5166785.662599999
+     From Canvas X: 669072.0695000002
+     From Canvas Y: 5179344.905300001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J377
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W760
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:21:59
+     Canvas X: 641745.477
+     Canvas Y: 5254010.798900001
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 574.70
+     Downstream: J357
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 62.413
+
+     Transform: SCS
+     Lag: 11136
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J357
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 651043.051
+     Canvas Y: 5226953.1972
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R80
+End:
+
+Reach: R80
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:17
+     Canvas X: 664398.8629000001
+     Canvas Y: 5226209.7325
+     From Canvas X: 651043.051
+     From Canvas Y: 5226953.1972
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J354
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W770
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:02
+     Canvas X: 659610.5356999999
+     Canvas Y: 5242541.6217
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 545.28
+     Downstream: J354
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 67.575
+
+     Transform: SCS
+     Lag: 7797.2
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J354
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 664398.8629000001
+     Canvas Y: 5226209.7325
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R100
+End:
+
+Reach: R100
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:26
+     Canvas X: 672045.9282
+     Canvas Y: 5221403.7644
+     From Canvas X: 664398.8629000001
+     From Canvas Y: 5226209.7325
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J344
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W830
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:11
+     Canvas X: 637341.7763999999
+     Canvas Y: 5235717.8914
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 838.44
+     Downstream: J344
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 63.478
+
+     Transform: SCS
+     Lag: 10536
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Subbasin: W810
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:14
+     Canvas X: 675877.7214000002
+     Canvas Y: 5236345.021
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 258.99
+     Downstream: J344
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 69.925
+
+     Transform: SCS
+     Lag: 4785.5
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J344
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 672045.9282
+     Canvas Y: 5221403.7644
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R110
+End:
+
+Reach: R110
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:42
+     Canvas X: 673878.0376000004
+     Canvas Y: 5218721.981000001
+     From Canvas X: 672045.9282
+     From Canvas Y: 5221403.7644
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J333
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W880
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:17
+     Canvas X: 656412.8470999999
+     Canvas Y: 5217845.9077
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 224.36
+     Downstream: J333
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 66.225
+
+     Transform: SCS
+     Lag: 5887.4
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J333
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 673878.0376000004
+     Canvas Y: 5218721.981000001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R130
+End:
+
+Junction: J365
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 685614.1585999997
+     Canvas Y: 5206428.261499999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R170
+End:
+
+Junction: J367
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 688906.6451000003
+     Canvas Y: 5202710.938100001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R220
+End:
+
+Reach: R130
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:49
+     Canvas X: 685614.1585999997
+     Canvas Y: 5206428.261499999
+     From Canvas X: 673878.0376000004
+     From Canvas Y: 5218721.981000001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J365
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R170
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:26:54
+     Canvas X: 688906.6451000003
+     Canvas Y: 5202710.938100001
+     From Canvas X: 685614.1585999997
+     From Canvas Y: 5206428.261499999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J367
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R220
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:04
+     Canvas X: 689676.6621000003
+     Canvas Y: 5198674.987
+     From Canvas X: 688906.6451000003
+     From Canvas Y: 5202710.938100001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J330
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W890
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:23
+     Canvas X: 688715.0329
+     Canvas Y: 5214708.2217
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 1673.4
+     Downstream: J330
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 78.803
+
+     Transform: SCS
+     Lag: 4436.8
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J330
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 689676.6621000003
+     Canvas Y: 5198674.987
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R250
+End:
+
+Reach: R250
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:17
+     Canvas X: 693765.7177999998
+     Canvas Y: 5188080.6153
+     From Canvas X: 689676.6621000003
+     From Canvas Y: 5198674.987
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J311
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1010
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:25
+     Canvas X: 697670.6151999999
+     Canvas Y: 5189624.410800001
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 458.60
+     Downstream: J311
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.395
+
+     Transform: SCS
+     Lag: 3684.0
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J311
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 693765.7177999998
+     Canvas Y: 5188080.6153
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R300
+End:
+
+Junction: J373
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 693101.9101
+     Canvas Y: 5175946.2096
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R320
+End:
+
+Junction: J375
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 691907.0560999997
+     Canvas Y: 5174167.2048
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R360
+End:
+
+Reach: R300
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:24
+     Canvas X: 693101.9101
+     Canvas Y: 5175946.2096
+     From Canvas X: 693765.7177999998
+     From Canvas Y: 5188080.6153
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J373
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R320
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:30
+     Canvas X: 691907.0560999997
+     Canvas Y: 5174167.2048
+     From Canvas X: 693101.9101
+     From Canvas Y: 5175946.2096
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J375
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R360
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:37
+     Canvas X: 691535.3238000004
+     Canvas Y: 5166626.3488
+     From Canvas X: 691907.0560999997
+     From Canvas Y: 5174167.2048
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J351
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R370
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:44
+     Canvas X: 691535.3238000004
+     Canvas Y: 5166626.3488
+     From Canvas X: 685348.6354999999
+     From Canvas Y: 5166785.662599999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J351
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1150
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:30
+     Canvas X: 668273.3812999995
+     Canvas Y: 5169677.047599999
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 433.51
+     Downstream: J351
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 79.920
+
+     Transform: SCS
+     Lag: 4026.3
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J351
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 691535.3238000004
+     Canvas Y: 5166626.3488
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R430
+End:
+
+Reach: R430
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:50
+     Canvas X: 693632.9562999997
+     Canvas Y: 5156855.0987
+     From Canvas X: 691535.3238000004
+     From Canvas Y: 5166626.3488
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J305
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1040
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:33
+     Canvas X: 687685.8313999996
+     Canvas Y: 5181515.6513
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 994.97
+     Downstream: J305
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 81.386
+
+     Transform: SCS
+     Lag: 5108.8
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Subbasin: W1190
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:39
+     Canvas X: 665207.7726999996
+     Canvas Y: 5156749.178099999
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 631.54
+     Downstream: J305
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 76.353
+
+     Transform: SCS
+     Lag: 5525.1
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J305
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 693632.9562999997
+     Canvas Y: 5156855.0987
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R440
+End:
+
+Reach: R440
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:27:58
+     Canvas X: 693871.9270000001
+     Canvas Y: 5156191.290899999
+     From Canvas X: 693632.9562999997
+     From Canvas Y: 5156855.0987
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J339
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1210
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:41
+     Canvas X: 709409.0757999998
+     Canvas Y: 5159893.0866
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 398.87
+     Downstream: J339
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.339
+
+     Transform: SCS
+     Lag: 3327.0
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Subbasin: W1220
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:43
+     Canvas X: 693631.9885999998
+     Canvas Y: 5156656.9627
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 0.48365
+     Downstream: J339
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 83.683
+
+     Transform: SCS
+     Lag: 65.049
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J339
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 693871.9270000001
+     Canvas Y: 5156191.290899999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R540
+End:
+
+Junction: J384
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 714715.4903999995
+     Canvas Y: 5135453.936799999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R550
+End:
+
+Junction: J386
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 715883.7921000002
+     Canvas Y: 5134232.5305
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R570
+End:
+
+Reach: R540
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:04
+     Canvas X: 714715.4903999995
+     Canvas Y: 5135453.936799999
+     From Canvas X: 693871.9270000001
+     From Canvas Y: 5156191.290899999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J384
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R550
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:11
+     Canvas X: 715883.7921000002
+     Canvas Y: 5134232.5305
+     From Canvas X: 714715.4903999995
+     From Canvas Y: 5135453.936799999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J386
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R570
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:22
+     Canvas X: 718007.9769000001
+     Canvas Y: 5132639.391899999
+     From Canvas X: 715883.7921000002
+     From Canvas Y: 5134232.5305
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J296
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1310
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:48
+     Canvas X: 672368.1612999998
+     Canvas Y: 5137258.299699999
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 1546.0
+     Downstream: J296
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 76.721
+
+     Transform: SCS
+     Lag: 8652.2
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J296
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 718007.9769000001
+     Canvas Y: 5132639.391899999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R630
+End:
+
+Reach: R630
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:28
+     Canvas X: 724858.4729000004
+     Canvas Y: 5126638.5699000005
+     From Canvas X: 718007.9769000001
+     From Canvas Y: 5132639.391899999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J299
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1490
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:51
+     Canvas X: 683342.8671000004
+     Canvas Y: 5107100.796
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 589.97
+     Downstream: J360
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 79.055
+
+     Transform: SCS
+     Lag: 5034.7
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J360
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 695226.0948999999
+     Canvas Y: 5120053.596999999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R700
+End:
+
+Reach: R700
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:35
+     Canvas X: 700616.2138
+     Canvas Y: 5125523.3728
+     From Canvas X: 695226.0948999999
+     From Canvas Y: 5120053.596999999
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J308
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1420
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:53
+     Canvas X: 678207.1847000001
+     Canvas Y: 5120160.9679000005
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 415.03
+     Downstream: J308
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 80.266
+
+     Transform: SCS
+     Lag: 4322.2
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J308
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 700616.2138
+     Canvas Y: 5125523.3728
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R680
+End:
+
+Junction: J390
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 714184.4441999998
+     Canvas Y: 5130063.8179
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R600
+End:
+
+Reach: R600
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:41
+     Canvas X: 723079.4681000002
+     Canvas Y: 5126877.5406
+     From Canvas X: 714184.4441999998
+     From Canvas Y: 5130063.8179
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J314
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R680
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:49
+     Canvas X: 714184.4441999998
+     Canvas Y: 5130063.8179
+     From Canvas X: 700616.2138
+     From Canvas Y: 5125523.3728
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J390
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1370
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:22:57
+     Canvas X: 708440.9447999997
+     Canvas Y: 5117070.9232
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 623.57
+     Downstream: J314
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.059
+
+     Transform: SCS
+     Lag: 3916.0
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J314
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 723079.4681000002
+     Canvas Y: 5126877.5406
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R620
+End:
+
+Reach: R620
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:28:57
+     Canvas X: 724858.4729000004
+     Canvas Y: 5126638.5699000005
+     From Canvas X: 723079.4681000002
+     From Canvas Y: 5126877.5406
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J299
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1440
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:23:00
+     Canvas X: 723484.4484999999
+     Canvas Y: 5126824.2820999995
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 0.48647
+     Downstream: J299
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 81.770
+
+     Transform: SCS
+     Lag: 55.326
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J299
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 724858.4729000004
+     Canvas Y: 5126638.5699000005
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R640
+End:
+
+Reach: R640
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:29:07
+     Canvas X: 728974.0809000004
+     Canvas Y: 5125549.925100001
+     From Canvas X: 724858.4729000004
+     From Canvas Y: 5126638.5699000005
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J320
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1340
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:23:03
+     Canvas X: 722554.7001999998
+     Canvas Y: 5141674.3136
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 1035.8
+     Downstream: J320
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.300
+
+     Transform: SCS
+     Lag: 3341.8
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J320
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 728974.0809000004
+     Canvas Y: 5125549.925100001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R710
+End:
+
+Junction: J395
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 756482.2741
+     Canvas Y: 5125337.5067
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R670
+End:
+
+Reach: R670
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:29:12
+     Canvas X: 774750.2633999996
+     Canvas Y: 5142224.775800001
+     From Canvas X: 756482.2741
+     From Canvas Y: 5125337.5067
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J291
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R710
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:29:16
+     Canvas X: 756482.2741
+     Canvas Y: 5125337.5067
+     From Canvas X: 728974.0809000004
+     From Canvas Y: 5125549.925100001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J395
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1480
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:23:07
+     Canvas X: 750075.6173
+     Canvas Y: 5127669.3901
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 1003.6
+     Downstream: J291
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.964
+
+     Transform: SCS
+     Lag: 5537.7
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Subbasin: W1240
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:23:13
+     Canvas X: 741173.4386
+     Canvas Y: 5158112.9352
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 588.15
+     Downstream: J336
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.973
+
+     Transform: SCS
+     Lag: 2965.9
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Junction: J291
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 774750.2633999996
+     Canvas Y: 5142224.775800001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R590
+End:
+
+Junction: J336
+     Description: Generic junction
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 758871.9819999998
+     Canvas Y: 5154969.8847
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: R490
+End:
+
+Reach: R490
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:29:21
+     Canvas X: 774750.2633999996
+     Canvas Y: 5142224.775800001
+     From Canvas X: 758871.9819999998
+     From Canvas Y: 5154969.8847
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: J291
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Reach: R590
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:29:28
+     Canvas X: 787721.0668000001
+     Canvas Y: 5128483.955399999
+     From Canvas X: 774750.2633999996
+     From Canvas Y: 5142224.775800001
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: Outlet1
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.3
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: W1250
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:23:18
+     Canvas X: 770733.2197000002
+     Canvas Y: 5144155.0923999995
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 432.30
+     Downstream: Outlet1
+
+     Discretization: Structured
+     File: Yakima_Basin.sqlite
+     Projection: 5070
+     Cell Size: 2000.0
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.948
+
+     Transform: SCS
+     Lag: 3550.5
+     Unitgraph Type: STANDARD
+
+     Baseflow: None
+End:
+
+Sink: Outlet1
+     Description: Outlet1
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 23:11:31
+     Canvas X: 787721.0668000001
+     Canvas Y: 5128483.955399999
+     Label X: 16.0
+     Label Y: 16.0
+End:
+
+Basin Layer Properties:
+     Element Layer:
+          Name: Icons
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: C:\Users\Mooz\OneDrive - Washington State University (email.wsu.edu)\Hydroclimate\HydroClimate project\GIS_Project\Yakima_Basin\Subbasin188.shp
+          Layer:0
+          Display name: Subbasin188
+          Minimum Scale: Undefined
+          Maximum Scale: 2147483647
+          Layer shown: Yes
+          Properties Filename: maps\Subbasin1884812153492021.gdr
+     End Layer:
+End:
+
+Basin Spatial Properties:
+     Coordinate System: PROJCS["USA_Contiguous_Albers_Equal_Area_Conic_USGS_version",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["latitude_of_center",23],PARAMETER["longitude_of_center",-96],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","5070"]]
+End:
+
+Basin Schematic Properties:
+     Last View N: 5273671.9867
+     Last View S: 5096329.107999999
+     Last View W: 612608.5822000001
+     Last View E: 787721.0668000003
+     Maximum View N: 5273671.9867
+     Maximum View S: 5096329.107999999
+     Maximum View W: 612608.5822000001
+     Maximum View E: 787721.0668000003
+     Extent Method: Elements
+     Buffer: 10
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: Yes
+     Draw Flow Direction: No
+     Draw HillShade Layer: Yes
+     Draw Elevation Layer: Yes
+     Elevation Layer Color Palette: Gray Scale
+     Ignore Elevation Color Ramp Scale: No
+     Use Interpolated Color Ramp for Elevation Layer: Yes
+     Color Ramp Opacity Level for Elevation Layer: 33.0
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+End:

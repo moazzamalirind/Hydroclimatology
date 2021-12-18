@@ -1,0 +1,65 @@
+Grid Manager: Yakima_Basin
+     Version: 4.9
+     Filepath Separator: \
+End:
+
+Grid: Precip_Grid
+     Grid Type: Precipitation
+     Last Modified Date: 28 November 2021
+     Last Modified Time: 11:59:23
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: External DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 28 November 2021
+       Last Variant Modified Time: 11:59:23
+       Default Variant: Yes
+       DSS File Name: data\2017_PRECIP.dss
+       DSS Pathname: /2017_DAILY/YAKIMA/PRECIPITATION/31DEC2016:1200/01JAN2017:1200/PRISM/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: Yakima_Rain2017
+     Grid Type: Precipitation
+     Description: 2017 gridded rain for Yakima River basin
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 22:36:14
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: External DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 15 December 2021
+       Last Variant Modified Time: 22:36:14
+       Default Variant: Yes
+       DSS File Name: data\Precip_2017.dss
+       DSS Pathname: /SHG/YAKIMA/PRECIPITATION/31DEC2016:1200/01JAN2017:1200/PRISM/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: SCS_CN
+     Grid Type: Curve Number
+     Description: Curve method Grid
+     Units: one
+     Data Source Type: GeoTIFF
+     Filename: C:\Users\Mooz\OneDrive - Washington State University (email.wsu.edu)\Hydroclimate\HydroClimate project\QGIS\Cn_Grid.tif
+End:
+
+Grid: Temp_Grid
+     Grid Type: Temperature
+     Last Modified Date: 28 November 2021
+     Last Modified Time: 11:59:44
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: External DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 28 November 2021
+       Last Variant Modified Time: 11:59:44
+       Default Variant: Yes
+       DSS File Name: data\2017_tmean.dss
+       DSS Pathname: /2017_TMEAN/YAKIMA/TEMPERATURE/31DEC2016:1200/01JAN2017:1200/PRISM/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+

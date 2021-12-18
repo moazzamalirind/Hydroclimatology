@@ -1,0 +1,59 @@
+NOTE 15301:  Began computing simulation run "Run 1" at time 15Dec2021, 15:29:30.
+NOTE 20364:  Found no parameter problems in meteorologic model "Met 1".
+NOTE 40049:  Found no parameter problems in basin model "Yakima_Basin".
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+ERROR 40064:  Could not compute grid cells for basin model "Yakima_Basin". Flow direction grid does not exist.  Complete GIS | Preprocess Sinks and GIS | Preprocess Drainage steps.
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R260".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R290".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R350".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R80".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R100".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R110".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R130".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R170".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R220".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R250".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R300".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R320".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R360".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R370".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R440".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R540".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R550".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R570".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R700".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R600".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R680".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R620".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R640".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R670".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R710".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R490".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R590".
+WARNING 15303:  Aborted run "Run 1" at time 15Dec2021, 15:29:31.

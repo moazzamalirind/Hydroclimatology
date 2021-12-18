@@ -1,0 +1,12 @@
+Control: Hydroclimatology_Project_control
+     Last Modified Date: 15 December 2021
+     Last Modified Time: 22:38:59
+     Version: 4.9
+     Start Date: 31 December 2016
+     Start Time: 24:00
+     End Date: 30 January 2017
+     End Time: 24:00
+     Time Interval: 1440
+     Grid Write Interval: 1440
+     Grid Write Time Shift: 0
+End:

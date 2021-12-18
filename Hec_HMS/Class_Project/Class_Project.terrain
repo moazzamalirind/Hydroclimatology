@@ -1,0 +1,12 @@
+Terrain Data Manager: Class_Project
+     Version: 4.9
+     Filepath Separator: \
+End:
+
+Terrain Data: Yakima
+     Description: 
+     Elevation File Name: terrain\Yakima.elevation.tif
+     Vertical Units: Meters
+     Last Modified Date: 25 October 2021
+     Last Modified Time: 03:45:13
+End:

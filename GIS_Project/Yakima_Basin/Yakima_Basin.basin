@@ -1,0 +1,1203 @@
+Basin: Yakima_Basin
+     Description: Hydroclimitalogy project
+     Last Modified Date: 11/11/2021
+     Last Modified Time: 10:57:53
+     Version: 3.5.0
+     Unit System: English
+     Grid Cell File: Yakima_Basin.mod
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Allow Blending: No
+     Compute Local Flow At Junctions: No
+End:
+
+Subbasin: W1480
+     Description: 
+     Canvas X: 750075.61730000004
+     Canvas Y: 5127669.3901000004
+     Label X: 16
+     Label Y: 16
+     Area: 387.50729360525992
+     Downstream: J291
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.963663982275605
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 5537.656641346606
+     Baseflow: None
+	
+End:
+
+Subbasin: W1250
+     Description: 
+     Canvas X: 770733.21970000025
+     Canvas Y: 5144155.0923999995
+     Label X: 16
+     Label Y: 16
+     Area: 166.91098319270949
+     Downstream: Outlet1
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.948229428514793
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 3550.543195642887
+     Baseflow: None
+	
+End:
+
+Subbasin: W1310
+     Description: 
+     Canvas X: 672368.1612999998
+     Canvas Y: 5137258.2996999994
+     Label X: 16
+     Label Y: 16
+     Area: 596.914612417949
+     Downstream: J296
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 76.721424056440299
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 8652.244040900424
+     Baseflow: None
+	
+End:
+
+Subbasin: W1440
+     Description: 
+     Canvas X: 723484.44849999994
+     Canvas Y: 5126824.2820999995
+     Label X: 16
+     Label Y: 16
+     Area: 0.18782608114549154
+     Downstream: J299
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 81.769652650822707
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 55.32573918355246
+     Baseflow: None
+	
+End:
+
+Subbasin: W1050
+     Description: 
+     Canvas X: 641568.7368999999
+     Canvas Y: 5182125.9597999994
+     Label X: 16
+     Label Y: 16
+     Area: 134.04087138187009
+     Downstream: J302
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 63.404446668239501
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 4925.353340655515
+     Baseflow: None
+	
+End:
+
+Subbasin: W1040
+     Description: 
+     Canvas X: 687685.83139999956
+     Canvas Y: 5181515.6513
+     Label X: 16
+     Label Y: 16
+     Area: 384.15827245835544
+     Downstream: J305
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 81.386322485509893
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 5108.802916180148
+     Baseflow: None
+	
+End:
+
+Subbasin: W1420
+     Description: 
+     Canvas X: 678207.1847000001
+     Canvas Y: 5120160.9679000005
+     Label X: 16
+     Label Y: 16
+     Area: 160.24560666839687
+     Downstream: J308
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 80.266023616149596
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 4322.204343501184
+     Baseflow: None
+	
+End:
+
+Subbasin: W1010
+     Description: 
+     Canvas X: 697670.61519999988
+     Canvas Y: 5189624.4108000007
+     Label X: 16
+     Label Y: 16
+     Area: 177.06638665255244
+     Downstream: J311
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.395290391163996
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 3684.0256769489197
+     Baseflow: None
+	
+End:
+
+Subbasin: W1370
+     Description: 
+     Canvas X: 708440.94479999971
+     Canvas Y: 5117070.9232000001
+     Label X: 16
+     Label Y: 16
+     Area: 240.76202812250764
+     Downstream: J314
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.059001779441701
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 3916.0347319276366
+     Baseflow: None
+	
+End:
+
+Subbasin: W1130
+     Description: 
+     Canvas X: 640965.38669999968
+     Canvas Y: 5167321.9970999993
+     Label X: 16
+     Label Y: 16
+     Area: 330.29873001084894
+     Downstream: J317
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 65.949993843188693
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 9549.154804725771
+     Baseflow: None
+	
+End:
+
+Subbasin: W1340
+     Description: 
+     Canvas X: 722554.70019999985
+     Canvas Y: 5141674.3136
+     Label X: 16
+     Label Y: 16
+     Area: 399.92477646686683
+     Downstream: J320
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.300481145428705
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 3341.7918574654086
+     Baseflow: None
+	
+End:
+
+Subbasin: W950
+     Description: 
+     Canvas X: 626746.12619999982
+     Canvas Y: 5192540.4679000005
+     Label X: 16
+     Label Y: 16
+     Area: 196.13155240258973
+     Downstream: J323
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 59.897100170704803
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 8077.319390659042
+     Baseflow: None
+	
+End:
+
+Subbasin: W940
+     Description: 
+     Canvas X: 649158.13460000046
+     Canvas Y: 5196870.2153999992
+     Label X: 16
+     Label Y: 16
+     Area: 131.71672746340982
+     Downstream: J302
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 67.850015960239205
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 4447.135375801972
+     Baseflow: None
+	
+End:
+
+Subbasin: W900
+     Description: 
+     Canvas X: 632756.51269999985
+     Canvas Y: 5212039.5668000001
+     Label X: 16
+     Label Y: 16
+     Area: 148.20023719454028
+     Downstream: J323
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 59.806482021288602
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 6785.457463572862
+     Baseflow: None
+	
+End:
+
+Subbasin: W890
+     Description: 
+     Canvas X: 688715.03289999999
+     Canvas Y: 5214708.2216999996
+     Label X: 16
+     Label Y: 16
+     Area: 646.10218492447666
+     Downstream: J330
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 78.802822699999993
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 4436.795477727975
+     Baseflow: None
+	
+End:
+
+Subbasin: W880
+     Description: 
+     Canvas X: 656412.8470999999
+     Canvas Y: 5217845.9077000003
+     Label X: 16
+     Label Y: 16
+     Area: 86.627030526617844
+     Downstream: J333
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 66.225006518381804
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 5887.416548908387
+     Baseflow: None
+	
+End:
+
+Subbasin: W1240
+     Description: 
+     Canvas X: 741173.43859999999
+     Canvas Y: 5158112.9352000002
+     Label X: 16
+     Label Y: 16
+     Area: 227.08556583273509
+     Downstream: J336
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.973261261482193
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 2965.892584582378
+     Baseflow: None
+	
+End:
+
+Subbasin: W1220
+     Description: 
+     Canvas X: 693631.98859999981
+     Canvas Y: 5156656.9627
+     Label X: 16
+     Label Y: 16
+     Area: 0.18673726576702893
+     Downstream: J339
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 83.683018867924503
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 65.04879521564506
+     Baseflow: None
+	
+End:
+
+Subbasin: W1210
+     Description: 
+     Canvas X: 709409.07579999976
+     Canvas Y: 5159893.0866
+     Label X: 16
+     Label Y: 16
+     Area: 154.00351924067121
+     Downstream: J339
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 82.338680633281598
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 3327.0259954452294
+     Baseflow: None
+	
+End:
+
+Subbasin: W830
+     Description: 
+     Canvas X: 637341.77639999986
+     Canvas Y: 5235717.8914000001
+     Label X: 16
+     Label Y: 16
+     Area: 323.7250886769599
+     Downstream: J344
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 63.4781821317696
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 10535.540770884643
+     Baseflow: None
+	
+End:
+
+Subbasin: W1190
+     Description: 
+     Canvas X: 665207.77269999962
+     Canvas Y: 5156749.1780999992
+     Label X: 16
+     Label Y: 16
+     Area: 243.83856509686387
+     Downstream: J305
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 76.353134852337007
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 5525.066116882971
+     Baseflow: None
+	
+End:
+
+Subbasin: W810
+     Description: 
+     Canvas X: 675877.72140000015
+     Canvas Y: 5236345.0209999997
+     Label X: 16
+     Label Y: 16
+     Area: 99.99616572645435
+     Downstream: J344
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 69.924953350414995
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 4785.5174782260365
+     Baseflow: None
+	
+End:
+
+Subbasin: W1150
+     Description: 
+     Canvas X: 668273.38129999954
+     Canvas Y: 5169677.0475999992
+     Label X: 16
+     Label Y: 16
+     Area: 167.37864301735766
+     Downstream: J351
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 79.920429254762595
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 4026.3421587461553
+     Baseflow: None
+	
+End:
+
+Subbasin: W770
+     Description: 
+     Canvas X: 659610.53569999989
+     Canvas Y: 5242541.6217
+     Label X: 16
+     Label Y: 16
+     Area: 210.53509217713375
+     Downstream: J354
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 67.575109600000005
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 7797.182825574235
+     Baseflow: None
+	
+End:
+
+Subbasin: W760
+     Description: 
+     Canvas X: 641745.47699999996
+     Canvas Y: 5254010.7989000008
+     Label X: 16
+     Label Y: 16
+     Area: 221.89176582328702
+     Downstream: J357
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 62.413011400437298
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 11136.117273191717
+     Baseflow: None
+	
+End:
+
+Subbasin: W1490
+     Description: 
+     Canvas X: 683342.86710000038
+     Canvas Y: 5107100.7960000001
+     Label X: 16
+     Label Y: 16
+     Area: 227.78923305488894
+     Downstream: J360
+     LossRate: SCS
+     Percent Impervious Area: 
+     Curve Number: 79.054640326396907
+     Initial Abstraction: 
+     Transform: SCS
+     Lag: 5034.741443504065
+     Baseflow: None
+	
+End:
+
+Sink:  Outlet1
+     Description: Outlet1
+     Canvas X: 787721.06680000015
+     Canvas Y: 5128483.9553999994
+     Label X: 16
+     Label Y: 16
+End:
+
+Junction:  J291
+     Description: Generic junction
+     Canvas X: 774750.26339999959
+     Canvas Y: 5142224.7758000009
+     Label X: 16
+     Label Y: 16
+     Downstream: R590
+End:
+
+Junction:  J296
+     Description: Generic junction
+     Canvas X: 718007.97690000013
+     Canvas Y: 5132639.3918999992
+     Label X: 16
+     Label Y: 16
+     Downstream: R630
+End:
+
+Junction:  J299
+     Description: Generic junction
+     Canvas X: 724858.4729000004
+     Canvas Y: 5126638.5699000005
+     Label X: 16
+     Label Y: 16
+     Downstream: R640
+End:
+
+Junction:  J302
+     Description: Generic junction
+     Canvas X: 657601.47149999999
+     Canvas Y: 5187469.9121000003
+     Label X: 16
+     Label Y: 16
+     Downstream: R290
+End:
+
+Junction:  J305
+     Description: Generic junction
+     Canvas X: 693632.95629999973
+     Canvas Y: 5156855.0987
+     Label X: 16
+     Label Y: 16
+     Downstream: R440
+End:
+
+Junction:  J308
+     Description: Generic junction
+     Canvas X: 700616.21380000003
+     Canvas Y: 5125523.3728
+     Label X: 16
+     Label Y: 16
+     Downstream: R680
+End:
+
+Junction:  J311
+     Description: Generic junction
+     Canvas X: 693765.71779999975
+     Canvas Y: 5188080.6152999997
+     Label X: 16
+     Label Y: 16
+     Downstream: R300
+End:
+
+Junction:  J314
+     Description: Generic junction
+     Canvas X: 723079.46810000017
+     Canvas Y: 5126877.5405999999
+     Label X: 16
+     Label Y: 16
+     Downstream: R620
+End:
+
+Junction:  J317
+     Description: Generic junction
+     Canvas X: 669072.06950000022
+     Canvas Y: 5179344.9053000007
+     Label X: 16
+     Label Y: 16
+     Downstream: R350
+End:
+
+Junction:  J320
+     Description: Generic junction
+     Canvas X: 728974.08090000041
+     Canvas Y: 5125549.9251000006
+     Label X: 16
+     Label Y: 16
+     Downstream: R710
+End:
+
+Junction:  J323
+     Description: Generic junction
+     Canvas X: 644670.49660000019
+     Canvas Y: 5205525.4829999991
+     Label X: 16
+     Label Y: 16
+     Downstream: R260
+End:
+
+Junction:  J330
+     Description: Generic junction
+     Canvas X: 689676.66210000031
+     Canvas Y: 5198674.9869999997
+     Label X: 16
+     Label Y: 16
+     Downstream: R250
+End:
+
+Junction:  J333
+     Description: Generic junction
+     Canvas X: 673878.03760000039
+     Canvas Y: 5218721.9810000006
+     Label X: 16
+     Label Y: 16
+     Downstream: R130
+End:
+
+Junction:  J336
+     Description: Generic junction
+     Canvas X: 758871.98199999984
+     Canvas Y: 5154969.8847000003
+     Label X: 16
+     Label Y: 16
+     Downstream: R490
+End:
+
+Junction:  J339
+     Description: Generic junction
+     Canvas X: 693871.92700000014
+     Canvas Y: 5156191.2908999994
+     Label X: 16
+     Label Y: 16
+     Downstream: R540
+End:
+
+Junction:  J344
+     Description: Generic junction
+     Canvas X: 672045.92819999997
+     Canvas Y: 5221403.7643999998
+     Label X: 16
+     Label Y: 16
+     Downstream: R110
+End:
+
+Junction:  J351
+     Description: Generic junction
+     Canvas X: 691535.32380000036
+     Canvas Y: 5166626.3487999998
+     Label X: 16
+     Label Y: 16
+     Downstream: R430
+End:
+
+Junction:  J354
+     Description: Generic junction
+     Canvas X: 664398.86290000007
+     Canvas Y: 5226209.7324999999
+     Label X: 16
+     Label Y: 16
+     Downstream: R100
+End:
+
+Junction:  J357
+     Description: Generic junction
+     Canvas X: 651043.05099999998
+     Canvas Y: 5226953.1972000003
+     Label X: 16
+     Label Y: 16
+     Downstream: R80
+End:
+
+Junction:  J360
+     Description: Generic junction
+     Canvas X: 695226.09489999991
+     Canvas Y: 5120053.5969999991
+     Label X: 16
+     Label Y: 16
+     Downstream: R700
+End:
+
+Junction:  J365
+     Description: Generic junction
+     Canvas X: 685614.15859999973
+     Canvas Y: 5206428.2614999991
+     Label X: 16
+     Label Y: 16
+     Downstream: R170
+End:
+
+Junction:  J367
+     Description: Generic junction
+     Canvas X: 688906.64510000031
+     Canvas Y: 5202710.9381000008
+     Label X: 16
+     Label Y: 16
+     Downstream: R220
+End:
+
+Junction:  J373
+     Description: Generic junction
+     Canvas X: 693101.91009999998
+     Canvas Y: 5175946.2095999997
+     Label X: 16
+     Label Y: 16
+     Downstream: R320
+End:
+
+Junction:  J375
+     Description: Generic junction
+     Canvas X: 691907.0560999997
+     Canvas Y: 5174167.2048000004
+     Label X: 16
+     Label Y: 16
+     Downstream: R360
+End:
+
+Junction:  J377
+     Description: Generic junction
+     Canvas X: 685348.63549999986
+     Canvas Y: 5166785.6625999995
+     Label X: 16
+     Label Y: 16
+     Downstream: R370
+End:
+
+Junction:  J384
+     Description: Generic junction
+     Canvas X: 714715.49039999954
+     Canvas Y: 5135453.9367999993
+     Label X: 16
+     Label Y: 16
+     Downstream: R550
+End:
+
+Junction:  J386
+     Description: Generic junction
+     Canvas X: 715883.7921000002
+     Canvas Y: 5134232.5305000003
+     Label X: 16
+     Label Y: 16
+     Downstream: R570
+End:
+
+Junction:  J390
+     Description: Generic junction
+     Canvas X: 714184.44419999979
+     Canvas Y: 5130063.8179000001
+     Label X: 16
+     Label Y: 16
+     Downstream: R600
+End:
+
+Junction:  J395
+     Description: Generic junction
+     Canvas X: 756482.27410000004
+     Canvas Y: 5125337.5066999998
+     Label X: 16
+     Label Y: 16
+     Downstream: R670
+End:
+
+Reach:  R80
+     Description: 
+     Canvas X: 664398.86290000007
+     Canvas Y: 5226209.7324999999
+     From Canvas X: 651043.05099999998
+     From Canvas Y: 5226953.1972000003
+     Label X: 16
+     Label Y: 16
+     Downstream: J354
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R100
+     Description: 
+     Canvas X: 672045.92819999997
+     Canvas Y: 5221403.7643999998
+     From Canvas X: 664398.86290000007
+     From Canvas Y: 5226209.7324999999
+     Label X: 16
+     Label Y: 16
+     Downstream: J344
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R110
+     Description: 
+     Canvas X: 673878.03760000039
+     Canvas Y: 5218721.9810000006
+     From Canvas X: 672045.92819999997
+     From Canvas Y: 5221403.7643999998
+     Label X: 16
+     Label Y: 16
+     Downstream: J333
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R130
+     Description: 
+     Canvas X: 685614.15859999973
+     Canvas Y: 5206428.2614999991
+     From Canvas X: 673878.03760000039
+     From Canvas Y: 5218721.9810000006
+     Label X: 16
+     Label Y: 16
+     Downstream: J365
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R170
+     Description: 
+     Canvas X: 688906.64510000031
+     Canvas Y: 5202710.9381000008
+     From Canvas X: 685614.15859999973
+     From Canvas Y: 5206428.2614999991
+     Label X: 16
+     Label Y: 16
+     Downstream: J367
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R220
+     Description: 
+     Canvas X: 689676.66210000031
+     Canvas Y: 5198674.9869999997
+     From Canvas X: 688906.64510000031
+     From Canvas Y: 5202710.9381000008
+     Label X: 16
+     Label Y: 16
+     Downstream: J330
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R250
+     Description: 
+     Canvas X: 693765.71779999975
+     Canvas Y: 5188080.6152999997
+     From Canvas X: 689676.66210000031
+     From Canvas Y: 5198674.9869999997
+     Label X: 16
+     Label Y: 16
+     Downstream: J311
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R260
+     Description: 
+     Canvas X: 657601.47149999999
+     Canvas Y: 5187469.9121000003
+     From Canvas X: 644670.49660000019
+     From Canvas Y: 5205525.4829999991
+     Label X: 16
+     Label Y: 16
+     Downstream: J302
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R290
+     Description: 
+     Canvas X: 669072.06950000022
+     Canvas Y: 5179344.9053000007
+     From Canvas X: 657601.47149999999
+     From Canvas Y: 5187469.9121000003
+     Label X: 16
+     Label Y: 16
+     Downstream: J317
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R300
+     Description: 
+     Canvas X: 693101.91009999998
+     Canvas Y: 5175946.2095999997
+     From Canvas X: 693765.71779999975
+     From Canvas Y: 5188080.6152999997
+     Label X: 16
+     Label Y: 16
+     Downstream: J373
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R320
+     Description: 
+     Canvas X: 691907.0560999997
+     Canvas Y: 5174167.2048000004
+     From Canvas X: 693101.91009999998
+     From Canvas Y: 5175946.2095999997
+     Label X: 16
+     Label Y: 16
+     Downstream: J375
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R350
+     Description: 
+     Canvas X: 685348.63549999986
+     Canvas Y: 5166785.6625999995
+     From Canvas X: 669072.06950000022
+     From Canvas Y: 5179344.9053000007
+     Label X: 16
+     Label Y: 16
+     Downstream: J377
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R360
+     Description: 
+     Canvas X: 691535.32380000036
+     Canvas Y: 5166626.3487999998
+     From Canvas X: 691907.0560999997
+     From Canvas Y: 5174167.2048000004
+     Label X: 16
+     Label Y: 16
+     Downstream: J351
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R370
+     Description: 
+     Canvas X: 691535.32380000036
+     Canvas Y: 5166626.3487999998
+     From Canvas X: 685348.63549999986
+     From Canvas Y: 5166785.6625999995
+     Label X: 16
+     Label Y: 16
+     Downstream: J351
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R430
+     Description: 
+     Canvas X: 693632.95629999973
+     Canvas Y: 5156855.0987
+     From Canvas X: 691535.32380000036
+     From Canvas Y: 5166626.3487999998
+     Label X: 16
+     Label Y: 16
+     Downstream: J305
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R440
+     Description: 
+     Canvas X: 693871.92700000014
+     Canvas Y: 5156191.2908999994
+     From Canvas X: 693632.95629999973
+     From Canvas Y: 5156855.0987
+     Label X: 16
+     Label Y: 16
+     Downstream: J339
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R490
+     Description: 
+     Canvas X: 774750.26339999959
+     Canvas Y: 5142224.7758000009
+     From Canvas X: 758871.98199999984
+     From Canvas Y: 5154969.8847000003
+     Label X: 16
+     Label Y: 16
+     Downstream: J291
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R540
+     Description: 
+     Canvas X: 714715.49039999954
+     Canvas Y: 5135453.9367999993
+     From Canvas X: 693871.92700000014
+     From Canvas Y: 5156191.2908999994
+     Label X: 16
+     Label Y: 16
+     Downstream: J384
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R550
+     Description: 
+     Canvas X: 715883.7921000002
+     Canvas Y: 5134232.5305000003
+     From Canvas X: 714715.49039999954
+     From Canvas Y: 5135453.9367999993
+     Label X: 16
+     Label Y: 16
+     Downstream: J386
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R570
+     Description: 
+     Canvas X: 718007.97690000013
+     Canvas Y: 5132639.3918999992
+     From Canvas X: 715883.7921000002
+     From Canvas Y: 5134232.5305000003
+     Label X: 16
+     Label Y: 16
+     Downstream: J296
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R590
+     Description: 
+     Canvas X: 787721.06680000015
+     Canvas Y: 5128483.9553999994
+     From Canvas X: 774750.26339999959
+     From Canvas Y: 5142224.7758000009
+     Label X: 16
+     Label Y: 16
+     Downstream: Outlet1
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R600
+     Description: 
+     Canvas X: 723079.46810000017
+     Canvas Y: 5126877.5405999999
+     From Canvas X: 714184.44419999979
+     From Canvas Y: 5130063.8179000001
+     Label X: 16
+     Label Y: 16
+     Downstream: J314
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R620
+     Description: 
+     Canvas X: 724858.4729000004
+     Canvas Y: 5126638.5699000005
+     From Canvas X: 723079.46810000017
+     From Canvas Y: 5126877.5405999999
+     Label X: 16
+     Label Y: 16
+     Downstream: J299
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R630
+     Description: 
+     Canvas X: 724858.4729000004
+     Canvas Y: 5126638.5699000005
+     From Canvas X: 718007.97690000013
+     From Canvas Y: 5132639.3918999992
+     Label X: 16
+     Label Y: 16
+     Downstream: J299
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R640
+     Description: 
+     Canvas X: 728974.08090000041
+     Canvas Y: 5125549.9251000006
+     From Canvas X: 724858.4729000004
+     From Canvas Y: 5126638.5699000005
+     Label X: 16
+     Label Y: 16
+     Downstream: J320
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R670
+     Description: 
+     Canvas X: 774750.26339999959
+     Canvas Y: 5142224.7758000009
+     From Canvas X: 756482.27410000004
+     From Canvas Y: 5125337.5066999998
+     Label X: 16
+     Label Y: 16
+     Downstream: J291
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R680
+     Description: 
+     Canvas X: 714184.44419999979
+     Canvas Y: 5130063.8179000001
+     From Canvas X: 700616.21380000003
+     From Canvas Y: 5125523.3728
+     Label X: 16
+     Label Y: 16
+     Downstream: J390
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R700
+     Description: 
+     Canvas X: 700616.21380000003
+     Canvas Y: 5125523.3728
+     From Canvas X: 695226.09489999991
+     From Canvas Y: 5120053.5969999991
+     Label X: 16
+     Label Y: 16
+     Downstream: J308
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+Reach:  R710
+     Description: 
+     Canvas X: 756482.27410000004
+     Canvas Y: 5125337.5066999998
+     From Canvas X: 728974.08090000041
+     From Canvas Y: 5125549.9251000006
+     Label X: 16
+     Label Y: 16
+     Downstream: J395
+     Route: Muskingum
+     Muskingum K: 
+     Muskingum X: 
+     Muskingum Steps: 
+End:
+
+
+Basin Schematic Properties:
+     Last View N: 5273671.9867000002
+     Last View S: 5096329.1079999991
+     Last View E: 787721.06680000026
+     Last View W: 612608.58220000006
+     Maximum View N: 5273671.9867000002
+     Maximum View S: 5096329.1079999991
+     Maximum View E: 787721.06680000026
+     Maximum View W: 612608.58220000006
+     Extent Method: Elements
+     Buffer: 10
+     Draw Icons: Yes
+     Draw Icon Labels: Yes
+     Draw Gridlines: Yes
+     Draw Flow Directions: No
+End:
+

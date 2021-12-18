@@ -1,0 +1,46 @@
+HMS Consistency Checking Log
+----------------------------
+
+Project: Yakima_Basin
+File Creation Date: 12/15/2021
+File Creation Time: 03:09:34
+
+Checking uniqueness of names ...
+  Checking River HydroID uniqueness:
+  End of checking River HydroID uniqueness - all IDs are unique.
+  Checking River Name uniqueness:
+  End of checking River Name uniqueness - all Names are unique.
+  Checking Drainage Area HydroID uniqueness:
+  End of checking Drainage Area HydroID uniqueness - all IDs are unique.
+  Checking Drainage Area Name uniqueness:
+  End of checking Drainage Area Name uniqueness - all Names are unique.
+  Checking VIP Name uniqueness:
+  End of checking VIP Name uniqueness - all Names are unique.
+End of checking uniqueness of names.
+
+Checking river containment...
+End of checking river containment.
+
+Checking centroid...
+End of Checking centroid.
+
+Checking river's connectivity...
+End of checking river's connectivity.
+
+Checking project points [VIP points]...
+  Checking VIP Point: Outlet1 x=787721.0668, y=5128483.9554
+  End of checking point: name=Outlet1 oid=1 - No PROBLEM found.
+End of checking project points [VIP points].
+
+
+Checking Finished: 03:09:36
+
+
+CHECKING SUMMARY
+****************
+
+Unique names         - no problems.
+River containment    - no problems.
+Center containment   - no problems.
+River connectivity   - no problems.
+VIP relevance        - no problems.
